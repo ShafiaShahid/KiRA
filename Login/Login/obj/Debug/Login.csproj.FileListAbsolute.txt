@@ -1,0 +1,13 @@
+c:\users\shafia\documents\visual studio 2013\Projects\Login\Login\bin\Debug\Login.exe.config
+C:\Users\Shafia\documents\visual studio 2013\Projects\Login\Login\bin\Debug\Login.exe
+C:\Users\Shafia\documents\visual studio 2013\Projects\Login\Login\bin\Debug\Login.pdb
+C:\Users\Shafia\documents\visual studio 2013\Projects\Login\Login\obj\Debug\Login.csprojResolveAssemblyReference.cache
+C:\Users\Shafia\documents\visual studio 2013\Projects\Login\Login\obj\Debug\MainWindow.baml
+C:\Users\Shafia\documents\visual studio 2013\Projects\Login\Login\obj\Debug\MainWindow.g.cs
+C:\Users\Shafia\documents\visual studio 2013\Projects\Login\Login\obj\Debug\App.g.cs
+C:\Users\Shafia\documents\visual studio 2013\Projects\Login\Login\obj\Debug\Login_MarkupCompile.cache
+C:\Users\Shafia\documents\visual studio 2013\Projects\Login\Login\obj\Debug\Login.g.resources
+C:\Users\Shafia\documents\visual studio 2013\Projects\Login\Login\obj\Debug\Login.Properties.Resources.resources
+C:\Users\Shafia\documents\visual studio 2013\Projects\Login\Login\obj\Debug\Login.csproj.GenerateResource.Cache
+C:\Users\Shafia\documents\visual studio 2013\Projects\Login\Login\obj\Debug\Login.exe
+C:\Users\Shafia\documents\visual studio 2013\Projects\Login\Login\obj\Debug\Login.pdb
