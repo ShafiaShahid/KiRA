@@ -1,0 +1,23 @@
+﻿<Window x:Class="KiRA.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"       
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition  />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel  Name="pn_Content"  Margin="8" Orientation="Vertical" Grid.Row="2" Grid.Column="1">
+            <TextBox x:Name="txt_user_name" Height="20"  Width="60"  TextWrapping="Wrap" Text="Username" Margin="48,10" RenderTransformOrigin="0.547,1.139" AcceptsReturn="True" />
+            <TextBox x:Name="txt_password" Height="20" Width="60" TextWrapping="Wrap" Text="Password" AcceptsReturn="True" Margin="48,0"/>
+            <Button Content="Log in" RenderTransformOrigin="0.439,-3.431"  Height="15" Width="50" Margin="53,10" Visibility="Visible" Click="Button_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
