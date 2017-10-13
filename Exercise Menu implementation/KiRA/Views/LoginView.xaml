@@ -1,0 +1,15 @@
+﻿<Window x:Class="KiRA.Views.LoginView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="LoginView" Height="700" Width="700"
+        WindowState="Maximized"
+         WindowStyle="ThreeDBorderWindow"
+        >
+    <Grid>
+        <Image Source="C:\Users\Shafia\Documents\Visual Studio 2013\Projects\KiRA\Chasse.jpg" Stretch="UniformToFill"  HorizontalAlignment="Left" VerticalAlignment="Top"  RenderTransformOrigin="0.506,0.677" Margin="0,-20,-515,0" />
+        <TextBox x:Name="txt_user_name"   FontFamily="Garamond" HorizontalAlignment="Center" Height="40" Margin="146,256,142,373" TextWrapping="Wrap" Text="Username" VerticalAlignment="Center" Width="294" FontSize="18" Foreground="Teal" RenderTransformOrigin="-0.512,1.068"/>
+        <TextBox x:Name="txt_password"  FontFamily="Garamond" HorizontalAlignment="Center" Height="40" Margin="146,301,142,328" TextWrapping="Wrap" Text="Password" VerticalAlignment="Center" Width="294" Foreground="Teal" FontSize="18"/>
+        <Button Content="LOG IN" FontSize="18"  FontFamily="Garamond" HorizontalAlignment="Center" Margin="207,359,204,265" VerticalAlignment="Center" Width="171" Height="45" Foreground="White" Background="#FF1E4459" Click="Button_Click" RenderTransformOrigin="-1.193,1.058" />
+        <Label Content="Please log in" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Margin="14,165,10,433" VerticalAlignment="Center" Width="578" Height="71" FontSize="54" Foreground="White"  FontFamily="Garamond" />
+    </Grid>
+</Window>
