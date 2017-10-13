@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Shafia\documents\visual studio 2013\Projects\KiRA\KiRA\App.xaml
-2-1849395877
+3-863922274
 
-13-1751402313
+15-2050629959
 15271796405
-MainWindow.xaml;Views\LoginViews.xaml;
+MainWindow.xaml;Views\ExerciseMenuView.xaml;Views\LoginView.xaml;
 
 False
 

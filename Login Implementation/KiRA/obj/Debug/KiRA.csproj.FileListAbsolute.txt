@@ -17,3 +17,6 @@ c:\users\shafia\documents\visual studio 2013\Projects\KiRA\KiRA\obj\Debug\Views\
 c:\users\shafia\documents\visual studio 2013\Projects\KiRA\KiRA\obj\Debug\Views\LoginViews.g.cs
 C:\Users\Shafia\Documents\Visual Studio 2013\Projects\KiRA\KiRA\bin\Debug\MySql.Data.dll
 C:\Users\Shafia\documents\visual studio 2013\Projects\KiRA\KiRA\bin\Debug\TabOrder.dll
+C:\Users\Shafia\Documents\KiRA\Login 2\KiRA\bin\Debug\KiRA.exe.config
+C:\Users\Shafia\Documents\KiRA\Login 2\KiRA\obj\Debug\KiRA.exe
+C:\Users\Shafia\Documents\KiRA\Login 2\KiRA\obj\Debug\KiRA.pdb
