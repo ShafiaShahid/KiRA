@@ -137,9 +137,25 @@ namespace KinectStreams
                                 var rightKneeY = body.Joints[JointType.KneeRight].Position.Y;
                                 var leftKneeY = body.Joints[JointType.KneeLeft].Position.Y;
                                 var rightHipX = body.Joints[JointType.HipRight].Position.X;
+                                var rightHipY = body.Joints[JointType.HipRight].Position.Y;
                                 var rightHipZ = body.Joints[JointType.HipRight].Position.Z;
                                 var rightShoulderX = body.Joints[JointType.ShoulderRight].Position.X;
+                                var rightShoulderY = body.Joints[JointType.ShoulderRight].Position.Y;
                                 var rightShoulderZ = body.Joints[JointType.ShoulderRight].Position.Z;
+                                var neckY = body.Joints[JointType.Neck].Position.Y;
+                                var spineShoulderX = body.Joints[JointType.SpineShoulder].Position.X;
+                                var spineShoulderY = body.Joints[JointType.SpineShoulder].Position.Y;
+                                var spineShoulderZ = body.Joints[JointType.SpineShoulder].Position.Z;
+                                var rightElbowX = body.Joints[JointType.ElbowRight].Position.X;
+                                var rightElbowY = body.Joints[JointType.ElbowRight].Position.Y;
+                                var rightElbowZ = body.Joints[JointType.ElbowRight].Position.Z;
+                                var righthand = body.Joints[JointType.HandTipRight].Position;
+                                var head = body.Joints[JointType.Head].Position;
+                                var neck = body.Joints[JointType.Neck].Position;
+                                var rightHandTipY = body.Joints[JointType.HandTipRight].Position.Y;
+                                var spineMidY = body.Joints[JointType.SpineMid].Position.Y;
+                                var spineMidZ = body.Joints[JointType.SpineMid].Position.Z;
+                                var hipRightY = body.Joints[JointType.HipRight].Position.Y;
 
 
                                 // co-ordinates
@@ -188,6 +204,8 @@ namespace KinectStreams
 
                                 //no money stretch----
 
+
+                                /*
                                 if (rightHandZ < rightShoulderZ)
                                 {
 
@@ -208,13 +226,78 @@ namespace KinectStreams
                                     }
 
                                 }
+                                */
+
+
+                                //    ---end no money stretch
+
+
+                                //Wall
+
+
+                                /*
+                                    if ( rightHandY > spineMidY)
+                                    {
+                                        if (check == true)
+                                        {
+                                        if (rightHandY > rightShoulderY)
+                                        {
+                                            count++;
+
+                                            points.Text = count.ToString();
+                                            check = false;
+                                        }
+                                        }
+                                    }
+
+                                    else if (  rightHandY < spineMidY)
+                                    {
+                                        check = true;
+                                    }
+
+                              
+                                   */
+
+                                // punches 
+
+
+                               // cross mid spinebase
+                              /*  if (spineMidZ > rightHandZ )
+                                {
+                                    if (check == true)
+                                        count++;
+                                    points.Text = count.ToString();
+                                    check = false;
+                                }
+                                else if(spineMidZ < rightHandZ )
+                                {
+                                    check = true;
+                                }
                                 
 
-                            //    ---end no money stretch
+                            */
+  
 
 
+                                // elbow bent
 
 
+                                /*
+                                if (rightElbowZ > rightHipZ) {
+                                    if (rightHandY > rightShoulderY)
+                                    {
+                                        if (check == true)
+                                            count++;
+                                        points.Text = count.ToString();
+                                        check = false;
+                                    }
+
+                                    else if (rightHandY < rightShoulderY)
+                                    {
+                                        check = true;
+                                    }
+                                }
+                                */
 
 
 
